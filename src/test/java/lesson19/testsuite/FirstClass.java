@@ -1,8 +1,11 @@
 package lesson19.testsuite;
 
+import lesson19.MyListener;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+@Listeners(MyListener.class)
 public class FirstClass {
 
     @Parameters({"username", "password"})
