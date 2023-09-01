@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Practice {
+public class PracticeGetText {
 
     final String EXPECTED_TITLE = "Ноутбук Apple MacBook Air 13 M1 8/256GB 2020 (MGN63) Space Gray";
     WebDriver driver;
