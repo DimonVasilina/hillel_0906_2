@@ -9,8 +9,5 @@
         <module name="hillel_0906" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hillel_0906" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
