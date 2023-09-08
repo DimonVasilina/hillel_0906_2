@@ -15,7 +15,7 @@ public class InitialDriver {
     protected WebDriverWait webDriverWait;
 
     @BeforeTest
-    private void setupDriver() {
+    public void setupDriver() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(5000));
@@ -23,7 +23,7 @@ public class InitialDriver {
     }
 
     @AfterTest
-    private void driverQuit() {
+    public void driverQuit() {
         driver.quit();
     }
 }
