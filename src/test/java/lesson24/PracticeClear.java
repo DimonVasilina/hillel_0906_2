@@ -2,6 +2,7 @@ package lesson24;
 
 import init.InitialDriver;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
@@ -19,6 +20,8 @@ public class PracticeClear extends InitialDriver {
 
     @Test
     public void submitTest() throws InterruptedException {
+        driver.manage().window().maximize();
+        driver.manage().window().setSize(new Dimension(1920, 860));
         driver.get("https://www.google.com.ua/");
         WebElement inputSearch = driver.findElement(By.name("q"));
         inputSearch.sendKeys("QA");
