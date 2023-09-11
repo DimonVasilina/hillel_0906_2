@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class Hw23 extends InitialDriver {
     @Test
-    public void findFirstTopSale() throws InterruptedException {
+    public void findFirstTopSale() {
         driver.get("https://rozetka.com.ua/ua/");
         WebElement laptopsAndComputers = driver
                 .findElement(By.xpath("//ul[@class='menu-categories menu-categories_type_main']/li[1]"));
