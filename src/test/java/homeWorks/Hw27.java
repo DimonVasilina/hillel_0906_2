@@ -38,16 +38,14 @@ public class Hw27 extends InitialDriver {
 
         Assert.assertEquals("https://rozetka.com.ua/ua/", driver.getCurrentUrl());
 
-        try {
+
             while (!isVisibleShare) {
                 JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
                 javascriptExecutor.executeScript("window.scrollBy(0, 2000)", "");
-                Thread.sleep(1000);
+                //  Thread.sleep(1000);
                 shareContainer = findShareContainer(); // Оновлення елементу після скролу
                 isVisibleShare = isVisibleShare(driver, shareContainer);
-            }
-        } catch (Exception e) {
-            System.out.println( e.getMessage());
+
         }
         List<WebElement> shareCardAfter = shareContainer.findElements(By.tagName("li"));
         Assert.assertEquals(shareCardAfter.size(), 6, "Акційні пропозиції doesn't have 6 items");
