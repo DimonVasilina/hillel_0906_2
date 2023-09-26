@@ -1,8 +1,7 @@
-package hw31;
+package hw32;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 public class POMainP {
 
@@ -14,7 +13,7 @@ public class POMainP {
         this.driver = driver;
     }
 
-    public POCategoryPage categoryClick (){
+    public POCategoryPage selectCategory(){
         driver.findElement(laptopsAndComputersByMenu).click();
         return new POCategoryPage(driver);
     }

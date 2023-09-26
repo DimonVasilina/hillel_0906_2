@@ -1,4 +1,4 @@
-package hw31;
+package hw32;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ public class POCategoryPage {
         this.driver = driver;
     }
 
-    public POSubCategoryPage goToSubCategoryClick (){
+    public POSubCategoryPage selectSubCategory(){
         driver.findElement(laptopsSubCategory).click();
         return new POSubCategoryPage(driver);
     }
