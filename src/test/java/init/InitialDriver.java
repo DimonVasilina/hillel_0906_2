@@ -19,6 +19,11 @@ public class InitialDriver {
     public void setupDriver() {
         WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver();
+
+//        WebDriverManager.chromedriver().setup();
+//        driver = new ChromeDriver();
+
+
         webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(5000));
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(5000));
     }
