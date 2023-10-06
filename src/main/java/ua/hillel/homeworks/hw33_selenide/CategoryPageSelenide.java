@@ -1,4 +1,4 @@
-package hw33;
+package ua.hillel.homeworks.hw33_selenide;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;

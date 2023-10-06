@@ -1,8 +1,8 @@
 package homeWorks.hw33_selenideTest;
 
-import hw33.BasketSelenide;
-import hw33.HeaderSelenide;
-import hw33.MainPageSelenide;
+import ua.hillel.homeworks.hw33_selenide.BasketSelenide;
+import ua.hillel.homeworks.hw33_selenide.HeaderSelenide;
+import ua.hillel.homeworks.hw33_selenide.MainPageSelenide;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

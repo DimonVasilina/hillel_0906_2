@@ -1,7 +1,8 @@
-package hw31_32;
+package ua.hillel.homeworks.hw31_32;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import ua.hillel.homeworks.hw31_32.CategoryPage;
 
 public class MainPage {
 

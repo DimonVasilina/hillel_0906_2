@@ -1,4 +1,6 @@
-package hw33;
+package ua.hillel.homeworks.hw33_selenide;
+
+import com.codeborne.selenide.Selenide;
 
 import static com.codeborne.selenide.Selenide.page;
 
@@ -11,7 +13,7 @@ public class HeaderSelenide extends Selectors {
 
     public BasketSelenide goToBasket(){
         basket.click();
-        return page(BasketSelenide.class);
+        return Selenide.page(BasketSelenide.class);
 
     }
 

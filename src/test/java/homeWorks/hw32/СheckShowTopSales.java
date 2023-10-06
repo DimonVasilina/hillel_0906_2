@@ -1,9 +1,10 @@
-package homeWorks.hw31pageObject;
+package homeWorks.hw32;
 
-import hw31_32.*;
+
 import init.InitialDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import ua.hillel.homeworks.hw31_32.MainPage;
 
 public class СheckShowTopSales extends InitialDriver {
 

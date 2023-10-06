@@ -1,6 +1,6 @@
-package hw33;
+package ua.hillel.homeworks.hw33_selenide;
 
-public class BasketSelenide extends Selectors{
+public class BasketSelenide extends Selectors {
 
         public String getTitleInBasket(){
             String title = "-1";
