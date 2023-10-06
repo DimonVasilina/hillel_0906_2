@@ -1,4 +1,4 @@
-package homeWorks;
+package homeWorks.hw27;
 
 import init.InitialDriver;
 import org.openqa.selenium.By;

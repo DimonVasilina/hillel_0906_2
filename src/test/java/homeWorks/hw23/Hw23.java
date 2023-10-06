@@ -1,5 +1,5 @@
 
-package hw23;
+package homeWorks.hw23;
 
 import init.InitialDriver;
 import org.openqa.selenium.By;

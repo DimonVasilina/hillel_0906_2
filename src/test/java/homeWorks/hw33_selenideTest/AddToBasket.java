@@ -1,16 +1,13 @@
-package selenideTest;
+package homeWorks.hw33_selenideTest;
 
-import com.codeborne.selenide.Condition;
 import hw33.BasketSelenide;
 import hw33.HeaderSelenide;
 import hw33.MainPageSelenide;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 
 import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.sleep;
 
 public class AddToBasket {
 
